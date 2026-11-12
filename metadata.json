@@ -1,0 +1,7 @@
+{
+  "name": "Lydia Tour with Fella Makafui – TTU",
+  "description": "Official student event registration website for Lydia Tour with Fella Makafui at Takoradi Technical University (TTU).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
