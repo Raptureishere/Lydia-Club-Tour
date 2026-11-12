@@ -85,17 +85,17 @@ export const WelcomePage: React.FC<WelcomePageProps> = ({ onNavigateToRegister }
             </div>
 
             {/* Right Column: Hero Visual Showcase */}
-            <div className="lg:col-span-5 relative">
+            <div id="speaker" className="lg:col-span-5 relative scroll-mt-24">
               <div className="relative mx-auto max-w-md lg:max-w-none">
                 
                 {/* Decorative border frame */}
                 <div className="absolute -inset-2 bg-gradient-to-tr from-amber-400/30 via-purple-600/20 to-purple-900/30 rounded-3xl blur-md -z-10" />
                 
                 <div className="bg-white rounded-3xl overflow-hidden border border-purple-200/80 shadow-2xl shadow-purple-950/15">
-                  <div className="relative aspect-[4/3] overflow-hidden bg-purple-950">
+                  <div className="relative aspect-[3/4] sm:aspect-[4/5] lg:aspect-[3/4] overflow-hidden bg-purple-950">
                     <img
-                      src="/src/assets/images/fella_makafui_keynote_1794449849693.jpg"
-                      alt="Fella Makafui speaking at Lydia Tour campus event"
+                      src="/assets/aistudio/1282363b-0d6e-44dc-87d8-87cf808d988d_9f5a16c3.jpg"
+                      alt="Fella Makafui in elegant purple dress for Lydia Tour at TTU"
                       referrerPolicy="no-referrer"
                       className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700"
                     />
@@ -107,10 +107,10 @@ export const WelcomePage: React.FC<WelcomePageProps> = ({ onNavigateToRegister }
                           <p className="text-xs font-semibold text-amber-300 uppercase tracking-wider mb-0.5">
                             Special Celebrity Guest
                           </p>
-                          <h3 className="text-xl font-bold tracking-tight">Fella Makafui</h3>
+                          <h3 className="text-xl sm:text-2xl font-bold tracking-tight">Fella Makafui</h3>
                           <p className="text-xs text-purple-200">Actress, Entrepreneur & Youth Ambassador</p>
                         </div>
-                        <div className="w-10 h-10 rounded-full bg-amber-400/20 border border-amber-300/40 flex items-center justify-center text-amber-300">
+                        <div className="w-10 h-10 rounded-full bg-amber-400/20 border border-amber-300/40 flex items-center justify-center text-amber-300 shrink-0">
                           <Mic2 className="w-5 h-5" />
                         </div>
                       </div>
@@ -118,7 +118,7 @@ export const WelcomePage: React.FC<WelcomePageProps> = ({ onNavigateToRegister }
                   </div>
 
                   {/* Quick Card Mini-Stats */}
-                  <div className="p-5 bg-gradient-to-b from-white to-[#FDFBF7] border-t border-purple-100 flex items-center justify-between text-xs text-slate-700">
+                  <div className="p-4 sm:p-5 bg-gradient-to-b from-white to-[#FDFBF7] border-t border-purple-100 flex items-center justify-between text-xs text-slate-700">
                     <div className="flex items-center gap-2">
                       <div className="w-2.5 h-2.5 rounded-full bg-emerald-500" />
                       <span className="font-semibold text-purple-950">Live at TTU Campus</span>
